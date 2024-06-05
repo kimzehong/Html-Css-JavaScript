@@ -20,7 +20,105 @@
             margin: 0 3px;
             padding: 30px;
         }
+
+        .container {
+            width: 1920px;
+            height: 1080px;
+            position: relative;
+            background: white;
+        }
+  
+  /* .header-wrapper {
+      width: 1960px;
+      height: 470px;
+      position: absolute;
+      top: -20px;
+      left: -20px;
+      border-radius: 5px;
+      overflow: hidden;
+      border: 1px #9747FF dotted;
+  } */
+  
+  /* .header {
+      width: 1920px;
+      height: 130px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: white;
+      box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15);
+  } */
+  
+        .header-item {
+            position: absolute;
+            color: black;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            word-wrap: break-word;
+        }
+  
+  .header-item.more {
+      left: 1625px;
+      top: 115px;
+      font-family: 'GmarketSans';
+  }
+  
+  .header-item.blog {
+      left: 1465px;
+      top: 115px;
+  }
+  
+  .header-item.introduce {
+      left: 240px;
+      top: 115px;
+  }
+  
+  .header-item.search {
+      left: 671px;
+      top: 115px;
+  }
+  
+  .header-item.projects {
+      left: 871px;
+      top: 115px;
+  }
+  
+  .header-item.food {
+      left: 1261px;
+      top: 115px;
+  }
+  
+  .header-item.instagram {
+      left: 478px;
+      top: 115px;
+  }
+  
+  .header-item.help {
+      left: 1071px;
+      top: 115px;
+  }
         
+        /* .location-tag.bogwang-dong {
+            left: 632px;
+            top: 982px;
+        }
+  
+        .location-tag.itaewon-station {
+            left: 1473px;
+            top: 982px;
+        } */
+
+        .instagram-text {
+            position: absolute;
+            left: 57px;
+            top: 1012px;
+            color: black;
+            font-size: 18px;
+             font-weight: 500;
+            text-transform: uppercase;
+            word-wrap: break-word;
+        }
      
     </style>
 </head>
@@ -29,19 +127,42 @@
     
         <h1 class="Main">MUKJAHONG</h1>
 
-        <h3 class="Header">INTRODUCE</h3>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header">
+                    <div class="header-item more">more</div>
+                    <div class="header-item blog">blog</div>
+                    <div class="header-item introduce">introduce</div>
+                    <div class="header-item search">search</div>
+                    <div class="header-item projects">projects</div>
+                    <div class="header-item food">food</div>
+                    <div class="header-title">mukjahong</div>
+                    <div class="login-btn">
+                        <div class="login-text">로그인</div>
+                    </div>
+                    <div class="logo-circle"></div>
+                    <div class="header-item instagram">insatgram</div>
+                    <div class="header-item help">help</div>
+                </div>
+            </div>
+
+        <!-- <h3 class="Header">INTRODUCE</h3>
         <h3 class="Header">INSTARGRAM</h3>
         <h3 class="Header">SEARCH</h3>
         <h3 class="Header">PROJECTS</h3>
         <h3 class="Header">HELP</h3>
         <h3 class="Header">FOOD</h3>
         <h3 class="Header">BLOG</h3>
-        <h3 class="Header">MORE</h3>
+        <h3 class="Header">MORE</h3> -->
     
         <img src="../WebPage/imgs/슬라이드 영역.png" height="570px">
-        <!-- <img src="../WebPage/imgs/unsplash__tF3vug2FhQ.png"> -->
+        <img class="instargram" src="../WebPage/imgs/unsplash__tF3vug2FhQ.png">
         <img src="../WebPage/imgs/Rectangle 1.png" >
         <img src="../WebPage/imgs/Rectangle 2.png" >
+
+        <div class="location-tag bogwang-dong">보광동</div>
+        <div class="location-tag itaewon-station">이태원역</div>
+        <div class="instagram-text">instagram</div>
 
 </body>
 </html>
