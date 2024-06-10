@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    }
+
+    @font-face {
+        font-family: 'GmarketSansMedium';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+        font-weight: normal;
+        font-style: bold;
+    }
+
+    header{
+    height: 145px;
+    text-align: center;
+    border-bottom: 1px solid #999;
+    }
+
+    .header__logo h1{
+    font: bold 30px 'arial';
+    padding-top: 20px;
+    letter-spacing: 2px;
+    }
+
+    .header__logo p{
+    font: bold 12px  'arial';
+    letter-spacing: 2px;
+    }
+
+    .header__gnb ul{
+    margin-top: 40px;
+    }
+
+    .header__gnb li{
+    display: inline-block;
+    }
+
+    .header__gnb  li a{
+        display: block;
+        font: bold 14px 'arial';
+        color: black;
+        margin: 0px 50px;
+        font-family: 'GmarketSansMedium';
+    }
+        
+        .image1 :hover{
+            transition: all 3s;
+            transform: rotate(360deg);
+        }
+
+        #wrap{
+            margin: 0 auto;
+            width: 1200px;
+            /* border: 1px solid red; */
+            padding-top: 10px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+    
+        article{
+            float: left;
+            margin-left: 10px;
+            
+    
+            
+        }
+    
+         .p1{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p2{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p3{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p4{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p5{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p6{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p7{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p8{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
+        .p9{
+            width: 385px;
+            height: 250px;
+            border-radius: 20px;
+        }
