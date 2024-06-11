@@ -53,17 +53,51 @@
     }
     
     #detail{
-        margin-left: 350px;
+        display: inline-block;
         width: 700px;
-        border: 1px solid red;
         padding-top: 10px;
         overflow: hidden;
-        margin-top: 10px;
+        margin-top: 95px;
+        margin-left: 320px;
+    }
+
+
+        
+    
+    #dongA{
+        position: fixed;
+        margin-left: 800px;
+        margin-top: 50px;
+        font-family: 'GmarketSansMedium';
+        
+    }
+
+    #dongAaddress{
+        position: fixed;
+        margin-left: 930px;
+        margin-top: 62px;
+        font-family: 'GmarketSansMedium';
+        
+    }
+    
+
+    #설명{
+        position: fixed;
+        margin-left: 700px;
+        margin-top: 80px;
+        font-family: 'GmarketSansMedium';
+        
+    }
+
+    .지도{
+        width: 500px;
+        height:400px;
+        margin-top: 30px;
     }
 
     img{
         width: 300px;
-        height: 400px;
+        height: 300px;
         border-radius: 20px;
     }
 
